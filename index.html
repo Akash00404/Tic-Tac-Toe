@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Tic-Tac-Toe</h1>
+    
+    <div class="mode-toggle">
+      <button id="twoPlayerBtn" class="mode-btn active">2 Players</button>
+      <button id="aiBtn" class="mode-btn">Single Player (vs AI)</button>
+    </div>
+    
+    <div id="status">Player X's Turn</div>
+    
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    
+    <button id="restartButton">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
